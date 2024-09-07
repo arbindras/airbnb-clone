@@ -279,4 +279,4 @@ app.get("/api/bookings", async (req, res) => {
   res.json(await Booking.find({ user: userData.id }).populate("place"));
 });
 const PORT = process.env.PORT || 4000;
-app.listen(4000);
+app.listen(PORT);

@@ -16,7 +16,7 @@ import BookingPage from "./pages/BookingPage";
 
 
 
-axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
+axios.defaults.baseURL = https://airbnb-clone-4imk.onrender.com;
 axios.defaults.withCredentials = true;
 
 function App() {
